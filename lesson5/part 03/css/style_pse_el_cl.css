@@ -1,0 +1,6 @@
+article p:first-letter{	font-size:30px;	color:red;}
+header p::before, header p::after{	content: '"';}
+.one{	width:100px;	height: 50px;	background: green;}
+.one:hover{	background: blue;	cursor:pointer;}
+.one:active{	background: blue;	border: 1px solid black;}
+article p:nth-child(3){	text-decoration: underline;}

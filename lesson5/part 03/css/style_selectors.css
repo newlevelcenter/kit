@@ -1,0 +1,7 @@
+h1{	margin:0 auto;	display: inline;}
+.wrapper{		width:100%;}
+.wrapper ul li p{	text-decoration: underline;}
+.wrapper > p{	color:blue;}
+b + i {			color:red;}
+h2 ~ p{			color:#00FF00;}
+#fourth{		text-indent: 30px;}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	
+		.d button{
+		width:50px;
+		}
+		
+		}
+	</style>
+</head>
+<body>
+	<div class = "l1 d"><button id="clck">go</button></div>
+  <script>
+		clck.addEventListener("click",clck_);
+
+	var obj={
+	  firstname: "Ivan",
+	  lastname: "Ivanov",
+	  age: 30,
+	  sayName: function (){
+		console.log(this.firstname);
+	  }
+	}
+
+	var count=0, timerId, go=false;
+	function clck_(){
+		console.log(obj);
+	}
+	
+	</script>
+ 
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+ul.submenu { /*по умолчанию поля подменю - есть, но не отображаются, т.к.   display: none;*/
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li { /*делаем так, что каждый элемент списка - становится блочным элементом*/
+    display: block; /*Элемент не обязательный, но вполне желательный*/
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline; /*при наведении на ссылку в подменю - появляется подчеркивание*/
+}
+ul.menu > li:hover > ul.submenu { /*при наведении на элемент списка верхнего урвня li:hover - меню проявляется*/
+    display: block;
+}
+
+/*Задания*/
+/*1. Сдвинуть место появления выпадающего меню на 15 пикселей вправо
+2. Сделать так, чтобы все все меню второго уровня появлялись сразу под главным меню и имели такую же ширину как главное меню.
+*/
